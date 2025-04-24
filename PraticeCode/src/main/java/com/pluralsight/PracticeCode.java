@@ -1,10 +1,12 @@
 package com.pluralsight;
 
 import java.awt.*;
+import java.util.Date;
 
 public class PracticeCode {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Date now = new Date();
+        System.out.println(now);
 
     }
 
